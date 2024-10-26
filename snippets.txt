@@ -1,0 +1,34 @@
+// search bar with icon
+.search-bar {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+// Border with gradient
+.module {
+  max-width: 250px;
+  padding: 1rem;
+  color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+COLORS
+#cb3837 - main
+
+// npm svg 
+<svg height="32" width="32" viewBox="0 0 700 700" fill="currentColor" aria-hidden="true"><polygon fill="currentColor" points="0,700 700,700 700,0 0,0"></polygon><polygon fill="#ffffff" points="150,550 350,550 350,250 450,250 450,550 550,550 550,150 150,150 "></polygon></svg>
